@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+@tailwind base;
+@tailwind components;
+
+body{
+    @apply dark:bg-dark-1;
+  }
+@tailwind utilities;
